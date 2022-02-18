@@ -1,0 +1,89 @@
+﻿@model FinalEmarketingProjectMVC.Models.tbl_Categories
+
+@{
+    ViewBag.Title = "Add Category";
+}
+
+<h2>Add Category</h2>
+
+@Html.Raw(ViewBag.AddCategoryMessage)
+@Html.Raw(ViewBag.extensionmessage)
+@Html.Raw(ViewBag.sizemessage)
+
+
+
+<div class="container">
+    <div class="header-body text-center mb-7">
+        <div class="row justify-content-center">
+            <div class="col-xl-5 col-lg-6 col-md-8 px-5">
+                <h1 class="text-black">Create New Category</h1>
+
+            </div>
+        </div>
+    </div>
+</div>
+<br />
+<br />
+<div class="container mt--8 pb-5">
+    <!-- Table -->
+    <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-8">
+            <div class="card bg-secondary border-0">
+
+                <div class="card-body px-lg-5 py-lg-5">
+
+
+                    @using (Html.BeginForm("AddCategory", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                    {
+                        <div class="form-group">
+                            <div class="input-group input-group-merge input-group-alternative mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="ni ni-hat-3"></i></span>
+                                </div>
+                                @Html.EditorFor(model => model.cat_name, new { htmlAttributes = new { @class = "form-control", @placeholder = "Category Name", @required = true } })
+                                @Html.ValidationMessageFor(model => model.cat_name, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group input-group-merge input-group-alternative mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="ni ni-hat-3"></i></span>
+                                </div>
+
+
+                                <input type="file" name="ImgFile" required="required" />
+
+
+
+                            </div>
+                        </div>
+
+                        <div class="text-center">
+
+
+                            <input type="submit" value="Submit" class="btn btn-primary mt-4" />
+
+
+
+                        </div>
+
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+    @Html.ActionLink("Back to List", "CategoryList")
+</div>
+
+
+
+<script src="~/Scripts/jquery-3.6.0.min.js"></script>
+<script src="../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../assets/vendor/js-cookie/js.cookie.js"></script>
+<script src="../assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js"></script>
+<script src="../assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js"></script>
+<!-- Argon JS -->
+<script src="../assets/js/argon.js?v=1.2.0"></script>
+\

@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dbFinalEmarketingModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="tbl_Admins">
+    <Key>
+      <PropertyRef Name="a_id" />
+    </Key>
+    <Property Name="a_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="a_username" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="a_email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="a_password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="a_image" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tbl_Categories">
+    <Key>
+      <PropertyRef Name="cat_id" />
+    </Key>
+    <Property Name="cat_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="cat_name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="cat_image" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="tbl_Products" Relationship="Self.FK__tbl_Produ__pro_f__4222D4EF" FromRole="tbl_Categories" ToRole="tbl_Products" />
+  </EntityType>
+  <EntityType Name="tbl_Images">
+    <Key>
+      <PropertyRef Name="i_id" />
+    </Key>
+    <Property Name="i_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="i_image" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="p_id" Type="Int32" />
+    <NavigationProperty Name="tbl_Products" Relationship="Self.FK__tbl_Images__p_id__47DBAE45" FromRole="tbl_Images" ToRole="tbl_Products" />
+  </EntityType>
+  <EntityType Name="tbl_Products">
+    <Key>
+      <PropertyRef Name="pro_id" />
+    </Key>
+    <Property Name="pro_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="pro_name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="pro_price" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="pro_description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="pro_fk_user" Type="Int32" />
+    <Property Name="pro_fk_cat" Type="Int32" />
+    <Property Name="pro_status" Type="Int32" Nullable="false" />
+    <Property Name="pro_add_date" Type="DateTime" Nullable="false" Precision="0" />
+    <NavigationProperty Name="tbl_Categories" Relationship="Self.FK__tbl_Produ__pro_f__4222D4EF" FromRole="tbl_Products" ToRole="tbl_Categories" />
+    <NavigationProperty Name="tbl_Images" Relationship="Self.FK__tbl_Images__p_id__47DBAE45" FromRole="tbl_Products" ToRole="tbl_Images" />
+    <NavigationProperty Name="tbl_Users" Relationship="Self.FK__tbl_Produ__pro_f__412EB0B6" FromRole="tbl_Products" ToRole="tbl_Users" />
+  </EntityType>
+  <EntityType Name="tbl_Users">
+    <Key>
+      <PropertyRef Name="u_id" />
+    </Key>
+    <Property Name="u_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="u_username" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="u_email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="u_password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="u_gender" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="u_phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="u_country" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="u_image" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="tbl_Products" Relationship="Self.FK__tbl_Produ__pro_f__412EB0B6" FromRole="tbl_Users" ToRole="tbl_Products" />
+  </EntityType>
+  <Association Name="FK__tbl_Produ__pro_f__4222D4EF">
+    <End Role="tbl_Categories" Type="Self.tbl_Categories" Multiplicity="0..1" />
+    <End Role="tbl_Products" Type="Self.tbl_Products" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Categories">
+        <PropertyRef Name="cat_id" />
+      </Principal>
+      <Dependent Role="tbl_Products">
+        <PropertyRef Name="pro_fk_cat" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbl_Images__p_id__47DBAE45">
+    <End Role="tbl_Products" Type="Self.tbl_Products" Multiplicity="0..1" />
+    <End Role="tbl_Images" Type="Self.tbl_Images" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Products">
+        <PropertyRef Name="pro_id" />
+      </Principal>
+      <Dependent Role="tbl_Images">
+        <PropertyRef Name="p_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbl_Produ__pro_f__412EB0B6">
+    <End Role="tbl_Users" Type="Self.tbl_Users" Multiplicity="0..1" />
+    <End Role="tbl_Products" Type="Self.tbl_Products" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Users">
+        <PropertyRef Name="u_id" />
+      </Principal>
+      <Dependent Role="tbl_Products">
+        <PropertyRef Name="pro_fk_user" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="dbFinalEmarketingEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="tbl_Admins" EntityType="Self.tbl_Admins" />
+    <EntitySet Name="tbl_Categories" EntityType="Self.tbl_Categories" />
+    <EntitySet Name="tbl_Images" EntityType="Self.tbl_Images" />
+    <EntitySet Name="tbl_Products" EntityType="Self.tbl_Products" />
+    <EntitySet Name="tbl_Users" EntityType="Self.tbl_Users" />
+    <AssociationSet Name="FK__tbl_Produ__pro_f__4222D4EF" Association="Self.FK__tbl_Produ__pro_f__4222D4EF">
+      <End Role="tbl_Categories" EntitySet="tbl_Categories" />
+      <End Role="tbl_Products" EntitySet="tbl_Products" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbl_Images__p_id__47DBAE45" Association="Self.FK__tbl_Images__p_id__47DBAE45">
+      <End Role="tbl_Products" EntitySet="tbl_Products" />
+      <End Role="tbl_Images" EntitySet="tbl_Images" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbl_Produ__pro_f__412EB0B6" Association="Self.FK__tbl_Produ__pro_f__412EB0B6">
+      <End Role="tbl_Users" EntitySet="tbl_Users" />
+      <End Role="tbl_Products" EntitySet="tbl_Products" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

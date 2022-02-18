@@ -1,0 +1,146 @@
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\FinalEmarketingProjectMVC.dll.config
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\FinalEmarketingProjectMVC.dll
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\FinalEmarketingProjectMVC.pdb
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\csc.exe
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\csc.exe.config
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\csc.rsp
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\csi.exe
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\csi.exe.config
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\csi.rsp
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\Microsoft.Managed.Core.targets
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.AppContext.dll
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.Collections.Immutable.dll
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.Console.dll
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.IO.Compression.dll
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.IO.FileSystem.dll
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.IO.Pipes.dll
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.Reflection.Metadata.dll
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.Security.AccessControl.dll
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.Security.Claims.dll
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.Security.Principal.Windows.dll
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.ValueTuple.dll
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.Xml.XmlDocument.dll
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.Xml.XPath.dll
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\vbc.exe
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\vbc.exe.config
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\vbc.rsp
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\VBCSCompiler.exe
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\VBCSCompiler.exe.config
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\EntityFramework.dll
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\EntityFramework.SqlServer.dll
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\Microsoft.Web.Infrastructure.dll
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\System.Web.Helpers.dll
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\System.Web.Mvc.dll
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\System.Web.Razor.dll
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\System.Web.Webpages.Deployment.dll
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\System.Web.Webpages.dll
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\System.Web.Webpages.Razor.dll
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\EntityFramework.xml
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\EntityFramework.SqlServer.xml
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\System.Web.Razor.xml
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\System.Web.Webpages.xml
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\System.Web.Webpages.Deployment.xml
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\System.Web.Webpages.Razor.xml
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\System.Web.Helpers.xml
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\System.Web.Mvc.xml
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\obj\Debug\FinalEmarketingProjectMVC.csproj.CoreCompileInputs.cache
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\obj\Debug\FinalEmarketingProjectMVC.csproj.CopyComplete
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\obj\Debug\FinalEmarketingProjectMVC.dll
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\obj\Debug\FinalEmarketingProjectMVC.pdb
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\FinalEmarketingProjectMVC.dll.config
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\FinalEmarketingProjectMVC.dll
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\FinalEmarketingProjectMVC.pdb
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\csc.exe
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\csc.exe.config
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\csc.rsp
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\csi.exe
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\csi.exe.config
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\csi.rsp
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\Microsoft.Managed.Core.targets
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.AppContext.dll
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.Collections.Immutable.dll
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.Console.dll
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.IO.Compression.dll
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.IO.FileSystem.dll
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.IO.Pipes.dll
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.Reflection.Metadata.dll
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.Security.AccessControl.dll
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.Security.Claims.dll
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.Security.Principal.Windows.dll
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.ValueTuple.dll
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.Xml.XmlDocument.dll
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.Xml.XPath.dll
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\vbc.exe
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\vbc.exe.config
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\vbc.rsp
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\VBCSCompiler.exe
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\roslyn\VBCSCompiler.exe.config
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\EntityFramework.dll
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\EntityFramework.SqlServer.dll
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\Microsoft.Web.Infrastructure.dll
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\System.Web.Helpers.dll
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\System.Web.Mvc.dll
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\System.Web.Razor.dll
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\System.Web.Webpages.Deployment.dll
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\System.Web.Webpages.dll
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\System.Web.Webpages.Razor.dll
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\EntityFramework.xml
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\EntityFramework.SqlServer.xml
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\System.Web.Razor.xml
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\System.Web.Webpages.xml
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\System.Web.Webpages.Deployment.xml
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\System.Web.Webpages.Razor.xml
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\System.Web.Helpers.xml
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\System.Web.Mvc.xml
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\obj\Debug\FinalEmarketingProjectMVC.csproj.CoreCompileInputs.cache
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\obj\Debug\FinalEmarketingProjectMVC.csproj.CopyComplete
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\obj\Debug\FinalEmarketingProjectMVC.dll
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\obj\Debug\FinalEmarketingProjectMVC.pdb
+D:\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\obj\Debug\FinalEmarketingProjectMVC.csprojAssemblyReference.cache
+D:\My data\My Pratice data\FinalEmarketingProjectMVC\FinalEmarketingProjectMVC\obj\Debug\FinalEmarketingProjectMVC.csprojAssemblyReference.cache

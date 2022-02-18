@@ -1,0 +1,342 @@
+﻿@model IEnumerable<FinalEmarketingProjectMVC.Models.tbl_Products>
+@{
+    ViewBag.Title = "Ads";
+    Layout = "~/Views/Shared/_Layout_Home.cshtml";
+}
+
+
+<div class="furniture-box">
+    <div class="terms-title">
+        <div class="container">
+            <div class="row">
+                <ol class="breadcrumb">
+                    <li><a href="#">Forntpage </a></li>
+                    <li class="active">Furniture</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="furniture-box">
+    <div class="container">
+        <div class="row">
+            <div class="furniture-main">
+                <h2>Furniture</h2>
+                <div class="col-md-3 col-sm-4">
+                    <div class="furniture-left">
+                        <h3>Filter Products</h3>
+                        <div class="by-box">
+                            <h5>By price</h5>
+                            <p>
+                                <div class="loding-box1" style="display:none;">
+                                    <a href="#">
+                                        <div class="sk-wave">
+                                            <div class="sk-rect sk-rect1"></div>
+                                            <div class="sk-rect sk-rect2"></div>
+                                            <div class="sk-rect sk-rect3"></div>
+                                            <div class="sk-rect sk-rect4"></div>
+                                            <div class="sk-rect sk-rect5"></div>
+                                        </div>
+                                        <span>Loding more awesome products...</span>
+                                    </a>
+                                </div>
+                                @ViewBag.message
+                                @using (Ajax.BeginForm("Ads", "Home", new
+                                    AjaxOptions()
+                                {
+                                    HttpMethod = "POST",
+                                    InsertionMode = InsertionMode.Replace,
+                                    UpdateTargetId = "DivUpdate",
+                                    LoadingElementId = "loding-box1",
+                                    LoadingElementDuration = 10,
+                                }))
+                                {
+                                    <input type="text" name="search" id="amount" style="padding:6px;" />
+                                    <input type="submit" class="btn btn-primary" />
+                                }
+                            </p>
+                        </div>
+                        <div class="by-com">
+                            <h5>By company</h5>
+                            <div class="list-b">
+                                <div id="boxscroll">
+                                    <div class="form-check">
+                                        <input id="checkbox1" class="filled-in chk-col-blue" type="checkbox">
+                                        <label for="checkbox1">
+                                            Adana Cimento
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="checkbox2" class="filled-in chk-col-blue" type="checkbox">
+                                        <label for="checkbox2">
+                                            Akbank
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="checkbox3" class="filled-in chk-col-blue" type="checkbox">
+                                        <label for="checkbox3">
+                                            Alvimedica
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="checkbox4" class="filled-in chk-col-blue" type="checkbox">
+                                        <label for="checkbox4">
+                                            Arcelik
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="checkbox5" class="filled-in chk-col-blue" type="checkbox">
+                                        <label for="checkbox5">
+                                            Askam
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="checkbox6" class="filled-in chk-col-blue" type="checkbox">
+                                        <label for="checkbox6">
+                                            Salcano
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="checkbox7" class="filled-in chk-col-blue" type="checkbox">
+                                        <label for="checkbox7">
+                                            Sedona
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="checkbox8" class="filled-in chk-col-blue" type="checkbox">
+                                        <label for="checkbox8">
+                                            Sisecam
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="checkbox9" class="filled-in chk-col-blue" type="checkbox">
+                                        <label for="checkbox9">
+                                            Su Marine Yachts
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="checkbox10" class="filled-in chk-col-blue" type="checkbox">
+                                        <label for="checkbox10">
+                                            Beko
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="checkbox11" class="filled-in chk-col-blue" type="checkbox">
+                                        <label for="checkbox11">
+                                            Kale Celik Esya
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="checkbox12" class="filled-in chk-col-blue" type="checkbox">
+                                        <label for="checkbox12">
+                                            Default
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="checkbox13" class="filled-in chk-col-blue" type="checkbox">
+                                        <label for="checkbox13">
+                                            Default
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="left-list-f">
+                            <div class="panel-group" id="accordion">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="panel-title expand">
+                                            <div class="right-arrow pull-right"><span class="caret"></span></div>
+                                            <a href="#">Sort by</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse1" class="panel-collapse collapse">
+                                        <div class="panel-body">Lorem ipsum dolor sit amet,</div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 data-toggle="collapse" data-parent="#accordion" href="#collapse2" class="panel-title expand">
+                                            <div class="right-arrow pull-right"><span class="caret"></span></div>
+                                            <a href="#">Ships from(country)</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse2" class="panel-collapse collapse">
+                                        <div class="panel-body">Lorem ipsum dolor sit amet,</div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 data-toggle="collapse" data-parent="#accordion" href="#collapse3" class="panel-title expand">
+                                            <div class="right-arrow pull-right"><span class="caret"></span></div>
+                                            <a href="#">Style</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse3" class="panel-collapse collapse">
+                                        <div class="panel-body">Lorem ipsum dolor sit amet,</div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 data-toggle="collapse" data-parent="#accordion" href="#collapse4" class="panel-title expand">
+                                            <div class="right-arrow pull-right"><span class="caret"></span></div>
+                                            <a href="#">Pattern type</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse4" class="panel-collapse collapse">
+                                        <div class="panel-body">Lorem ipsum dolor sit amet,</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-8">
+                    <div class="furniture-middle">
+
+
+
+                        <div id="DivUpdate">
+
+
+                            <div class="row cat-pd">
+                                
+                                @{
+
+                                    int totalAds = 0;
+                                    foreach (var item in Model)
+                                    {
+                                        totalAds++;
+                                        if (item.pro_status == 1)
+                                        {
+                                            <div class="small-box-c" style="margin:15px 0px;">
+                                                <a class="col-md-6 col-sm-6">
+                                                    <div class="small-img-b">
+
+                                                        @foreach (var img in ViewBag.ilist)
+                                                        {
+                                                            if (item.pro_id == img.p_id)
+                                                            {
+                                                                <img width="100" src="~/images/@img.i_image" />
+                                                            }
+                                                        }
+
+
+                                                    </div>
+                                                    <div class="dit-t clearfix">
+                                                        <div class="left-ti">
+                                                            <h4>@item.pro_name</h4>
+                                                            <p>Category Name : @ViewBag.clist.cat_name</p>
+                                                        </div>
+                                                        <a href="#" tabindex="0">RS : @item.pro_price</a>
+                                                    </div>
+                                                    <div class="text-center">
+                                                        @Html.ActionLink("Details", "ViewAd", "Home", new { id = item.pro_id }, new { @class = "btn btn-info" })
+                                                    </div>
+                                                    <div class="prod-btn">
+                                                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist</a>
+                                                        <a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
+                                                        <p>23 likes</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        }
+
+                                    }
+
+                                }
+                                @if (Convert.ToInt32(Session["count"]) > Model.Count())
+                                {
+
+                                }
+                                else
+                                {
+                                    <div class="text-center">
+                                        @Ajax.ActionLink("Load More", "Ads", "Home", new
+                                       AjaxOptions()
+                                   {
+                                       HttpMethod = "POST",
+                                       InsertionMode = InsertionMode.Replace,
+                                       UpdateTargetId = "DivUpdate",
+                                       LoadingElementId = "loding-box",
+                                   }, new { @class = "btn btn-success" })
+                                    </div>
+                                }
+
+
+                            <b>@totalAds Result Found</b>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-md-3 hidden-xs">
+                    <div class="furniture-right">
+                        <h3></h3>
+                        <div class="right-list-f">
+                            <ul>
+                                <li><a href="#"><img width="32" src="~/Content/images/product/1.png" alt="#" /> Chairs</a></li>
+                                <li><a href="#"><img width="32" src="~/Content/images/product/2.png" alt="#" /> Office chairs</a></li>
+                                <li><a href="#"><img width="32" src="~/Content/images/product/1.png" alt="" /> Special chairs</a></li>
+                                <li><a href="#"><img width="32" src="~/Content/images/product/4.png" alt="" /> Living room</a></li>
+                                <li><a href="#"><img width="32" src="~/Content/images/product/5.png" alt="" /> Room furniture</a></li>
+                                <li><a href="#"><img width="32" src="~/Content/images/product/2.png" alt="" /> Tv Furniture</a></li>
+                                <li><a href="#"><img width="32" src="~/Content/images/product/11.png" alt="" /> Office Chairs</a></li>
+                                <li><a href="#"><img width="32" src="~/Content/images/product/10.png" alt="" /> Special lights</a></li>
+                                <li><a href="#"><img width="32" src="~/Content/images/product/4.png" alt="" /> Home office</a></li>
+                                <li><a href="#"><img width="32" src="~/Content/images/product/10.png" alt="" /> Kids furniture</a></li>
+                                <li><a href="#"><img width="32" src="~/Content/images/product/11.png" alt="" /> Accessories</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="loding-box" style="display:none;">
+                    <a href="#">
+                        <div class="sk-wave">
+                            <div class="sk-rect sk-rect1"></div>
+                            <div class="sk-rect sk-rect2"></div>
+                            <div class="sk-rect sk-rect3"></div>
+                            <div class="sk-rect sk-rect4"></div>
+                            <div class="sk-rect sk-rect5"></div>
+                        </div>
+                        <span>Loding more awesome products...</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--main js-->
+<script src="~/Scripts/jquery-3.6.0.min.js"></script>
+<script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+<!--bootstrap js-->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-select.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/wow.min.js"></script>
+<!--custom js-->
+<script src="js/custom.js"></script>
+<script>
+    $(function () {
+        $("#slider-range").slider({
+            range: true,
+            min: 0,
+            max: 2000,
+            values: [158, 1230],
+            slide: function (event, ui) {
+                $("#amount").val("$" + ui.values[0] + " - $" + ui.values[1]);
+            }
+        });
+        $("#amount").val("$" + $("#slider-range").slider("values", 0) +
+            " - $" + $("#slider-range").slider("values", 1));
+    });
+</script>
+<script src="js/jquery.nicescroll.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#boxscroll").niceScroll({ cursorborder: "", cursorcolor: "#ededed", boxzoom: true }); // First scrollable DIV
+    });
+</script>

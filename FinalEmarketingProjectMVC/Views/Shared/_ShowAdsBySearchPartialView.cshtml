@@ -1,0 +1,44 @@
+﻿@model IEnumerable<FinalEmarketingProjectMVC.Models.tbl_Products>
+
+@{
+foreach (var item in Model)
+    {
+        if (item.pro_status == 1)
+        {
+
+            <div class="small-box-c" style="margin:15px 0px;">
+                <a class="col-md-6 col-sm-6">
+                    <div class="small-img-b">
+
+                        @foreach (var img in ViewBag.ilist)
+                        {
+                            if (item.pro_id == img.p_id)
+                            {
+                                <img width="100" src="~/images/@img.i_image" />
+                            }
+                        }
+
+
+                    </div>
+                    <div class="dit-t clearfix">
+                        <div class="left-ti">
+                            <h4>@item.pro_name</h4>
+                            <p>Category Name : @ViewBag.clist.cat_name</p>
+                        </div>
+                        <a href="#" tabindex="0">RS : @item.pro_price</a>
+                    </div>
+                    <div class="text-center">
+                        @Html.ActionLink("Details", "ViewAd", "Home", new { id = item.pro_id }, new { @class = "btn btn-info" })
+                    </div>
+                    <div class="prod-btn">
+                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist</a>
+                        <a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
+                        <p>23 likes</p>
+                    </div>
+                </a>
+            </div>
+
+        }
+
+    }
+    }

@@ -1,0 +1,210 @@
+﻿@model FinalEmarketingProjectMVC.Models.ViewAd
+
+@{
+    Layout = "~/Views/Shared/_Layout_Home.cshtml";
+}
+
+<style>
+    #pic-1 > img{
+        width:300px;
+    }
+    body > div.product-page-main > div > div:nth-child(2) > div.col-md-7.col-sm-8 > div > div.description-box > div.spe-a > ul > li:nth-child(1) > div.col-md-8 > p > img {
+        border-radius: 100%;
+        width: 6.8rem;
+        height: 6.8rem;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+    .description-box h5{
+        font-size:16px;
+    }
+    .description-box p {
+        margin-bottom: 0px;
+        font-size: 21px;
+        color: #626262;
+        line-height: 24px;
+        font-weight: bold;
+    }
+    .spe-a ul li p {
+        line-height: 50px;
+    }
+</style>
+
+    <div class="product-page-main">
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="prod-page-title">
+                        <h2>@Model.pro_name</h2>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2 col-sm-4">
+                    <div class="left-profile-box-m prod-page">
+                        <div class="pro-img">
+                            <img src="~/Content/images/150x150.png" alt="#" />
+                        </div>
+                        <div class="pof-text">
+                            <h3>Morgan Mobilya</h3>
+                            <div class="check-box"></div>
+                        </div>
+                        <a href="#">Visit store</a>
+                    </div>
+                </div>
+                <div class="col-md-7 col-sm-8">
+                    <div class="md-prod-page">
+                        <div class="md-prod-page-in">
+                            <div class="page-preview">
+                                <div class="preview">
+                                    <div class="preview-pic tab-content">
+                                        <div class="tab-pane active text-center" id="pic-1"><img  src="~/images/@Model.i_image"  alt="#" /></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="btn-dit-list clearfix">
+                                <div class="left-dit-p">
+                                    <div class="prod-btn">
+                                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist</a>
+                                        <a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
+                                        <p>23 likes</p>
+                                    </div>
+                                </div>
+                                <div class="right-dit-p">
+                                    <div class="like-list">
+                                        <ul>
+                                            <li>
+                                                <div class="im-b"><img class="" src="~/Content/images/list-img-01.png" alt=""></div>
+                                            </li>
+                                            <li>
+                                                <div class="im-b"><img src="~/Content/images/list-img-02.png" alt=""></div>
+                                            </li>
+                                            <li>
+                                                <div class="im-b"><img src="~/Content/images/list-img-03.png" alt=""></div>
+                                            </li>
+                                            <li>
+                                                <div class="im-b"><img src="~/Content/images/list-img-04.png" alt=""></div>
+                                            </li>
+                                            <li>
+                                                <div class="im-b"><img src="~/Content/images/list-img-05.png" alt=""></div>
+                                            </li>
+                                            <li>
+                                                <div class="im-b"><img src="~/Content/images/list-img-06.png" alt=""></div>
+                                            </li>
+                                            <li>
+                                                <div class="im-b"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description-box">
+                            <div class="dex-a">
+                                <h4>Description : </h4>
+                                <p>
+                                    @Model.pro_description
+                                </p>
+                                <br>
+                                <h4>Category Name :  @Model.cat_name</h4>
+                            </div>
+                            <div class="spe-a">
+                                <h3 style="margin-bottom:20px;">Seller Description</h3>
+                                <ul>
+                                    <li class="clearfix">
+                                        <div class="col-md-4">
+                                            <h5> Name </h5>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <p>
+                                                <img src="@Url.Content(@Model.u_image)" alt="Alternate Text" />
+
+                                                <span>@Model.u_username</span>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="clearfix">
+                                        <div class="col-md-4">
+                                            <h5>Contact Number</h5>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <p> @Model.u_phone</p>
+                                        </div>
+                                    </li>
+                                    <li class="clearfix">
+                                        <div class="col-md-4">
+                                            <h5>Add Post In </h5>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <p> @Model.pro_add_date</p>
+                                        </div>
+                                    </li>
+
+                                    @if (Convert.ToInt32(Session["u_id"]) == Convert.ToInt32(Model.pro_fk_user))
+                                    {
+                                        <li class="clearfix">
+                                            <div class="col-md-4">
+                                                <h5>Close This Ads</h5>
+                                            </div>
+                                            <div class="col-md-8">
+
+                                                <p>
+                                                    @Html.ActionLink("Close this Ad", "DeleteAd", "Home",new { id = Model.pro_id }, new { @class = "btn btn-danger" })
+
+                                                </p>
+
+
+                                            </div>
+                                        </li>
+                                    }
+
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <div class="price-box-right">
+                        <h4>Price</h4>
+                        <h3>RS : @Model.pro_price<span></span></h3>
+                        <p>Option</p>
+                        <select class="form-control select2">
+                            <option>Flying Carpet Green rug</option>
+                            <option value="AK">Alaska</option>
+                            <option value="HI">Hawaii</option>
+                            <option value="CA">California</option>
+                            <option value="NV">Nevada</option>
+                            <option value="OR">Oregon</option>
+                            <option value="WA">Washington</option>
+                            <option value="AZ">Arizona</option>
+                            <option value="CO">Colorado</option>
+                            <option value="ID">Idaho</option>
+                            <option value="MT">Montana</option>
+                            <option value="NE">Nebraska</option>
+                            <option value="NM">New Mexico</option>
+                            <option value="ND">North Dakota</option>
+                            <option value="UT">Utah</option>
+                            <option value="WY">Wyoming</option>
+                            <option value="AL">Alabama</option>
+                            <option value="AR">Arkansas</option>
+                            <option value="IL">Illinois</option>
+                            <option value="IA">Iowa</option>
+                            <option value="KS">Kansas</option>
+                            <option value="KY">Kentucky</option>
+                        </select>
+                        <a href="#">Contact company</a>
+                        <h5><i class="fa fa-clock-o" aria-hidden="true"></i> <strong>16 hours</strong> avg. responsive time</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    

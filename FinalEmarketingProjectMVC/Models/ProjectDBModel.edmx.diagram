@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7ab4844bb5584ac4af0086aad397039b" Name="Diagram1">
+        <EntityTypeShape EntityType="dbFinalEmarketingModel.tbl_Admins" Width="1.5" PointX="2.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFinalEmarketingModel.tbl_Categories" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFinalEmarketingModel.tbl_Images" Width="1.5" PointX="5.25" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFinalEmarketingModel.tbl_Products" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFinalEmarketingModel.tbl_Users" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <AssociationConnector Association="dbFinalEmarketingModel.FK__tbl_Produ__pro_f__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFinalEmarketingModel.FK__tbl_Images__p_id__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFinalEmarketingModel.FK__tbl_Produ__pro_f__412EB0B6" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
